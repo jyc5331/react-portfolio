@@ -1,4 +1,6 @@
 import React from "react";
+import Headshot from "../../assets/headshot.jpg";
+
 //add a headshot to this page
 const About = () => (
   <div>
@@ -14,6 +16,9 @@ const About = () => (
       environment, and being flexible with learning and incorporating new
       technologies. I owe a lot of my patience to my dog and companion, Luther.
     </p>
+    <div>
+      <img src={Headshot} alt="Joseph's headshot" height={600} width={400} />
+    </div>
   </div>
 );
 
