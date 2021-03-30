@@ -31,6 +31,7 @@ function Page() {
           renderPage(currentPage)
         }
       </div>
+      <Footer />
     </div>
   );
 }

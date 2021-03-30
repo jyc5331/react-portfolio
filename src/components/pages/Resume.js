@@ -16,7 +16,6 @@ const Resume = () => (
           />
         </a>
       </div>
-      {/* Make resume available for download on click */}
     </p>
   </div>
 );
