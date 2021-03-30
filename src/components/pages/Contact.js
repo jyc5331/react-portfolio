@@ -18,13 +18,13 @@ function Contact() {
       const isValid = validateEmail(e.target.value);
 
       if (!isValid) {
-        setErrorMessage("Your email is invalid.");
+        setErrorMessage("This is not a valid email.");
       } else {
         setErrorMessage("");
       }
     } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
+        setErrorMessage(`Please enter a ${e.target.name}.`);
       } else {
         setErrorMessage("");
       }
@@ -49,9 +49,7 @@ function Contact() {
   return (
     <section className="contact-container">
       <form id="contact-form" onSubmit={handleSubmit}>
-        <h3 style={{ fontSize: "40px", fontStyle: "italic" }}>
-          LET'S CONNECT!
-        </h3>
+        <h3 style={{ fontSize: "40px", fontStyle: "italic" }}>Be in touch,</h3>
         <div>
           <label htmlFor="name">Name:</label>
           <br />
