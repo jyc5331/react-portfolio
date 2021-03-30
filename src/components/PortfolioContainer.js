@@ -1,22 +1,22 @@
 import React, { useState } from "react";
 import NavTabs from "./NavTabs";
-import Home from "./pages/Home";
 import About from "./pages/About";
-import Blog from "./pages/Blog";
+import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
-function Portfolio() {
-  const [currentPage, handlePageChange] = useState("Home");
+function Page() {
+  const [currentPage, handlePageChange] = useState("About");
 
   const renderPage = (currentPage) => {
     // Add a switch statement that will return the appropriate component of the 'currentPage'
     switch (currentPage) {
-      case "Home":
-        return <Home />;
       case "About":
         return <About />;
-      case "Blog":
-        return <Blog />;
+      case "Portfolio":
+        return <Portfolio />;
+      case "Resume":
+        return <Resume />;
       case "Contact":
         return <Contact />;
     }
@@ -35,4 +35,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Page;
