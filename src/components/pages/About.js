@@ -1,9 +1,13 @@
 import React from "react";
 import Headshot from "../../assets/headshot.jpg";
+import { Header, Menu } from "grommet";
+//I'm keeping the lines 5-6 as notes
+// import { Java } from "grommet-icons";
+/* <Button icon={<Java />} hoverIndicator /> */
 
-//add a headshot to this page
 const About = () => (
   <div>
+    {/* <Header background="brand">Hello Header</Header> */}
     <h1>About Me</h1>
     <p>
       Howdy there. My name is Joseph Cosgrove, and I'm a junior software
