@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import { Header, FormField, Box, Button, Form, TextInput } from "grommet";
 
 function Contact() {
   const [errorMessage, setErrorMessage] = useState("");
@@ -47,48 +48,50 @@ function Contact() {
   }
 
   return (
-    <section className="contact-container">
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <h3 style={{ fontSize: "40px", fontStyle: "italic" }}>Be in touch,</h3>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <br />
-          <input
-            type="text"
-            name="name"
-            defaultValue={name}
-            onBlur={handleChange}
-          />
-        </div>
-        <div>
-          <label htmlFor="email">Email:</label>
-          <br />
-          <input
-            type="email"
-            name="email"
-            defaultValue={email}
-            onBlur={handleChange}
-          />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <br />
-          <textarea
-            name="message"
-            defaultValue={message}
-            onBlur={handleChange}
-          />
-        </div>
+    <Form
+      className="contact-container"
+      id="contact-form"
+      onSubmit={handleSubmit}
+      style={{ width: "50%" }}
+    >
+      <Header margin="medium" style={{ fontSize: "30px" }}>
+        Be in touch,
+      </Header>
+      <FormField>
+        <label htmlFor="name">Name:</label>
+        <br />
+        <TextInput
+          type="text"
+          name="name"
+          defaultValue={name}
+          onBlur={handleChange}
+        />
+      </FormField>
+      <FormField>
+        <label htmlFor="email">Email:</label>
+        <br />
+        <TextInput
+          type="email"
+          name="email"
+          defaultValue={email}
+          onBlur={handleChange}
+        />
+      </FormField>
+      <FormField>
+        <label htmlFor="message">Message:</label>
+        <br />
+        <textarea name="message" defaultValue={message} onBlur={handleChange} />
+      </FormField>
 
-        {errorMessage ? (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        ) : null}
-
-        <button type="submit">Submit</button>
-      </form>
-    </section>
+      {errorMessage ? (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      ) : null}
+      <Box direction="row" gap="medium" margin="small">
+        <Button type="sumbit" primary label="Submit" />
+      </Box>
+    </Form>
   );
 }
 

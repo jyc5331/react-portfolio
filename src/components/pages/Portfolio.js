@@ -6,6 +6,8 @@ import HolidayCheer from "../../assets/holiday-cheer.png";
 import SocialMedia from "../../assets/social-media.png";
 import Weather from "../../assets/weather.png";
 
+//USE STACKED CARDS FROM GROMMET
+
 const Portfolio = () => (
   <div>
     <h1>Portfolio</h1>
