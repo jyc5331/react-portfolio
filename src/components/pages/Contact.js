@@ -54,42 +54,52 @@ function Contact() {
       onSubmit={handleSubmit}
       style={{ width: "50%" }}
     >
-      <Header margin="medium" style={{ fontSize: "30px" }}>
-        Be in touch,
-      </Header>
-      <FormField>
-        <label htmlFor="name">Name:</label>
-        <br />
-        <TextInput
-          type="text"
-          name="name"
-          defaultValue={name}
-          onBlur={handleChange}
-        />
-      </FormField>
-      <FormField>
-        <label htmlFor="email">Email:</label>
-        <br />
-        <TextInput
-          type="email"
-          name="email"
-          defaultValue={email}
-          onBlur={handleChange}
-        />
-      </FormField>
-      <FormField>
-        <label htmlFor="message">Message:</label>
-        <br />
-        <textarea name="message" defaultValue={message} onBlur={handleChange} />
-      </FormField>
+      <Box
+        border={{ color: "brand", size: "medium" }}
+        margin="medium"
+        pad="large"
+      >
+        <Header margin="medium" style={{ fontSize: "30px" }}>
+          Be in touch,
+        </Header>
+        <FormField>
+          <label htmlFor="name">Name:</label>
+          <br />
+          <TextInput
+            type="text"
+            name="name"
+            defaultValue={name}
+            onBlur={handleChange}
+          />
+        </FormField>
+        <FormField>
+          <label htmlFor="email">Email:</label>
+          <br />
+          <TextInput
+            type="email"
+            name="email"
+            defaultValue={email}
+            onBlur={handleChange}
+          />
+        </FormField>
+        <FormField>
+          <label htmlFor="message">Message:</label>
+          <br />
+          <textarea
+            name="message"
+            defaultValue={message}
+            onBlur={handleChange}
+          />
+        </FormField>
 
-      {errorMessage ? (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      ) : null}
-      <Box direction="row" gap="medium" margin="small">
-        <Button type="sumbit" primary label="Submit" />
+        {errorMessage ? (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        ) : null}
+        <Box direction="row" gap="medium" margin="small">
+          <Button type="sumbit" primary label="Submit" />
+        </Box>
       </Box>
     </Form>
   );
