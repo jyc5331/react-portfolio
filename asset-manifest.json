@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.js": "/react-portfolio/static/js/main.ca1764c2.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.ca1764c2.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.348b1555.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.348b1555.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.e530417f.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.e530417f.js.map",
-    "static/js/2.3cf23707.chunk.js": "/react-portfolio/static/js/2.3cf23707.chunk.js",
-    "static/js/2.3cf23707.chunk.js.map": "/react-portfolio/static/js/2.3cf23707.chunk.js.map",
+    "static/js/2.f5be7ccb.chunk.js": "/react-portfolio/static/js/2.f5be7ccb.chunk.js",
+    "static/js/2.f5be7ccb.chunk.js.map": "/react-portfolio/static/js/2.f5be7ccb.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/js/2.3cf23707.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.3cf23707.chunk.js.LICENSE.txt",
-    "static/media/budget-app.9d10f9c6.png": "/react-portfolio/static/media/budget-app.9d10f9c6.png",
-    "static/media/gist.1a29cd05.png": "/react-portfolio/static/media/gist.1a29cd05.png",
+    "static/js/2.f5be7ccb.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.f5be7ccb.chunk.js.LICENSE.txt",
+    "static/media/budget-app.png": "/react-portfolio/static/media/budget-app.9d10f9c6.png",
+    "static/media/gist.png": "/react-portfolio/static/media/gist.1a29cd05.png",
     "static/media/headshot.6ecd27bb.jpg": "/react-portfolio/static/media/headshot.6ecd27bb.jpg",
-    "static/media/holiday-cheer.1a80d18f.png": "/react-portfolio/static/media/holiday-cheer.1a80d18f.png",
+    "static/media/holiday-cheer.png": "/react-portfolio/static/media/holiday-cheer.1a80d18f.png",
     "static/media/resumescreenshot.0e8c25a3.png": "/react-portfolio/static/media/resumescreenshot.0e8c25a3.png",
-    "static/media/social-media.b5e9f6a6.png": "/react-portfolio/static/media/social-media.b5e9f6a6.png",
-    "static/media/weather.e78693dd.png": "/react-portfolio/static/media/weather.e78693dd.png",
-    "static/media/wellness.2ef786dc.png": "/react-portfolio/static/media/wellness.2ef786dc.png"
+    "static/media/social-media.png": "/react-portfolio/static/media/social-media.b5e9f6a6.png",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.e78693dd.png",
+    "static/media/wellness.png": "/react-portfolio/static/media/wellness.2ef786dc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e530417f.js",
-    "static/js/2.3cf23707.chunk.js",
-    "static/js/main.ca1764c2.chunk.js"
+    "static/js/2.f5be7ccb.chunk.js",
+    "static/js/main.348b1555.chunk.js"
   ]
 }
