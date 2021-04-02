@@ -5,8 +5,8 @@ import Gist from "../../assets/gist.png";
 import HolidayCheer from "../../assets/holiday-cheer.png";
 import SocialMedia from "../../assets/social-media.png";
 import Weather from "../../assets/weather.png";
+
 import {
-  Avatar,
   Box,
   Card,
   Heading,
@@ -14,7 +14,6 @@ import {
   CardHeader,
   Grid,
   Grommet,
-  Text,
   Image,
   Stack,
 } from "grommet";
@@ -42,14 +41,12 @@ const theme = {
 const data = [
   {
     project: "My Wellness Journey",
-    image: "../../assets/wellness.png",
+    image: "images/assets/wellness.png",
     href: "https://github.com/Gintstir/My-Wellness-Journey/branches",
     alt:
       "A full stack application designed to help users with tracking their varying states of wellness. There are exercises, reminders to drink water, and a graph that tracks self-perception of wellness with user input",
   },
 ];
-
-//USE STACKED CARDS FROM GROMMET
 
 const Portfolio = () => {
   //change this to parenthesis if Grommet doesn't work
