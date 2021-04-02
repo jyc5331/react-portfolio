@@ -13,15 +13,7 @@ import {
 } from "grommet";
 
 const theme = {
-  global: {
-    font: {
-      family: `-apple-system,
-         BlinkMacSystemFont, 
-         "Segoe UI", 
-         Roboto`,
-    },
-  },
-  heading: { font: { family: "Comic Sans MS" } },
+  heading: { font: { family: "Roboto" } },
   card: {
     container: {
       elevation: "large",
@@ -97,13 +89,13 @@ const Portfolio = () => {
                 <CardHeader
                   pad={{ horizontal: "small", vertical: "small" }}
                   // https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4#all-hex-value-from-100-to-0-alpha
-                  background="#000000A0"
+                  background="#000000"
                   width="medium"
                   justify="start"
                 >
                   <Box>
                     <a href={item.href}>
-                      <Heading level="3" margin="none">
+                      <Heading level="3" margin="none" color="white">
                         {item.project}
                       </Heading>
                     </a>
