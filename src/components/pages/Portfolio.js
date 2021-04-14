@@ -26,9 +26,16 @@ const theme = {
 
 const data = [
   {
+    project: "Tea App",
+    image: require("../../assets/tea-app.png").default,
+    href: "https://github.com/Gintstir/Tea-App",
+    alt:
+      "A full stack application designed with 2020 MERN practices. A single user or social media application about tea that allows users to login, create recipe cards, and curate a feed of their own tea photos",
+  },
+  {
     project: "My Wellness Journey",
     image: require("../../assets/wellness.png").default,
-    href: "https://github.com/Gintstir/My-Wellness-Journey/branches",
+    href: "https://github.com/Gintstir/My-Wellness-Journey",
     alt:
       "A full stack application designed to help users with tracking their varying states of wellness. There are exercises, reminders to drink water, and a graph that tracks self-perception of wellness with user input",
   },

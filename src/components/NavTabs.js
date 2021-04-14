@@ -13,7 +13,7 @@ import { grommet } from "grommet/themes";
 function NavTabs(props) {
   return (
     <Grommet theme={grommet}>
-      <Header background="dark-1" pad="medium">
+      <Header background="White" pad="medium">
         <Box direction="row" align="center" gap="small">
           Joseph Cosgrove{" "}
         </Box>

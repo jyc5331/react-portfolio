@@ -2,11 +2,11 @@ import React from "react";
 import Headshot from "../../assets/headshot.jpg";
 import Luther from "../../assets/luther.jpg";
 import Pottery from "../../assets/pottery.jpg";
-import { grommet } from "grommet/themes";
+// import { grommet } from "grommet/themes";
 import { Grommet, Header, Main, Text, Card, Grid } from "grommet";
 
 const About = () => (
-  <Grommet theme={grommet}>
+  <>
     <Header background="light-4" pad="small">
       <Text size="large">About Me</Text>
     </Header>
@@ -42,7 +42,7 @@ const About = () => (
         />
       </Card>
     </Grid>
-  </Grommet>
+  </>
 );
 
 export default About;
