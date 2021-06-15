@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/react-portfolio/static/js/main.a0e87d0e.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.a0e87d0e.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.94e1f4fe.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.94e1f4fe.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.e530417f.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.e530417f.js.map",
     "static/js/2.7ef28f84.chunk.js": "/react-portfolio/static/js/2.7ef28f84.chunk.js",
@@ -14,7 +14,7 @@
     "static/media/holiday-cheer.png": "/react-portfolio/static/media/holiday-cheer.1a80d18f.png",
     "static/media/luther.75883bb6.jpg": "/react-portfolio/static/media/luther.75883bb6.jpg",
     "static/media/pottery.ef7b7dcf.jpg": "/react-portfolio/static/media/pottery.ef7b7dcf.jpg",
-    "static/media/resumescreenshot.0e8c25a3.png": "/react-portfolio/static/media/resumescreenshot.0e8c25a3.png",
+    "static/media/resumescreenshot.02a079a2.png": "/react-portfolio/static/media/resumescreenshot.02a079a2.png",
     "static/media/social-media.png": "/react-portfolio/static/media/social-media.b5e9f6a6.png",
     "static/media/tea-app.png": "/react-portfolio/static/media/tea-app.d834b412.png",
     "static/media/weather.png": "/react-portfolio/static/media/weather.e78693dd.png",
@@ -23,6 +23,6 @@
   "entrypoints": [
     "static/js/runtime-main.e530417f.js",
     "static/js/2.7ef28f84.chunk.js",
-    "static/js/main.a0e87d0e.chunk.js"
+    "static/js/main.94e1f4fe.chunk.js"
   ]
 }
