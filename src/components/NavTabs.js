@@ -22,6 +22,7 @@ function NavTabs(props) {
             responsive === "small" ? (
               <Menu
                 label="Click me"
+                focusIndicator="false"
                 items={[
                   {
                     label: "About",

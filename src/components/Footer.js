@@ -40,8 +40,8 @@ export const SocialBar = () => (
         </Text>
       </Box>
       <Media />
-      <Text textAlign="center" size="xsmall">
-        Thank you for visiting
+      <Text textAlign="center" size="small">
+        <a href="mailto:jcosgrovecoding@gmail.com">jcosgrovecoding@gmail.com</a>
       </Text>
     </Footer>
   </Grommet>
