@@ -3,7 +3,7 @@ import Headshot from "../../assets/headshot.jpg";
 import Luther from "../../assets/luther.jpg";
 import Pottery from "../../assets/pottery.jpg";
 // import { grommet } from "grommet/themes";
-import { Grommet, Header, Main, Text, Card, Grid } from "grommet";
+import { Header, Main, Text, Card, Grid } from "grommet";
 
 const About = () => (
   <>

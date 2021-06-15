@@ -4,8 +4,9 @@ const Resume = () => (
   <div>
     <h1>Resume</h1>
     <p>
-      Notable proficiences: Mobile-first development, Full Stack Development,
-      MERN development
+      Programing Languages: JavaScript ES6+, CSS3, HTML5, SQL, NoSQL Tools and
+      Applications: GitHub, MongoDB, MySQL, Express, React.JS, Node.JS,
+      Handlebars, jQuery, AJAX, Bootstrap, and Materialized
       <div>
         <a href={ResumeScreenshot} download="JDCC-Resume-2021">
           <img

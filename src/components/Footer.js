@@ -1,7 +1,7 @@
 import React from "react";
 import { Grommet as GrommetIcon, Github, Slack, Linkedin } from "grommet-icons";
 
-import { Anchor, Box, Footer, grommet, Grommet, Main, Text } from "grommet";
+import { Anchor, Box, Footer, grommet, Grommet, Text } from "grommet";
 
 // const Footer = () => (
 // <div>
